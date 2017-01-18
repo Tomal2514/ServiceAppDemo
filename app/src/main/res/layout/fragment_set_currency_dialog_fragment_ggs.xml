@@ -1,0 +1,54 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context="com.example.tomal.serviceappdemo.fragment.SetCurrencyDialogFragmentGgs">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="359dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Set Currency"
+        android:textSize="17sp"
+        android:layout_marginTop="12dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="24dp"
+        android:textStyle="bold"
+        android:textColor="#000000"/>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dip"
+        android:background="#80c1c1c1" />
+
+
+    <LinearLayout android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/currency_recycle_view"
+        android:layout_weight="1"></android.support.v7.widget.RecyclerView>
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/custom_border"
+        android:text="Done"
+        android:gravity="right|center_vertical"
+        android:paddingRight="25dp"
+        android:elevation="10dp"
+        android:textColor="@color/ggs_gradient_start_color"
+        android:id="@+id/currency_done_button"
+        />
+
+</LinearLayout>
+</LinearLayout>
+
+</FrameLayout>

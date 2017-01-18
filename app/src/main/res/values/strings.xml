@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">ServiceAppDemo</string>
+    <string name="ggs_menu_post">Post</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="ggs_expericnece_text">Experience</string>
+    <string name="ggs_skill_text">Skills </string>
+    <string name="ggs_tag_text">Tags</string>
+
+    <string name="ggs_contact_pref_text">Contact Preference</string>
+    <string name="ggs_audio_call_text">GagaGugu Audio Call</string>
+    <string name="ggs_video_call_text">GagaGugu Video Call</string>
+    <string name="ggs_cellular_call_text">Cellular Call</string>
+    <string name="ggs_create_service">Create Service</string>
+    <string name="ggs_gagagugu_chat">GagaGugu Chat</string>
+    <string name="ggs_always_enabled_text">Always enable</string>
+    <string name="ggs_rate_text">Rate</string>
+    <string name="ggs_done_text">Done</string>
+    <string name="ggs_rate_here_hints_text">Your Rate Here</string>
+    <string name="ggs_per_text">Per</string>
+    <string name="ggs_per_service_text">Service</string>
+    <string name="ggs_per_hour_text">Hour</string>
+    <string name="ggs_per_day_text">Day</string>
+    <string name="ggs_per_week_text">Week</string>
+    <string name="ggs_per_month_text">Month</string>
+    <string name="ggs_add_experience_title_text">Add Experience</string>
+    <string name="ggs_add_new_brand_title_text">Brand</string>
+</resources>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="ggs_gradient_start_color">#08ACB9</color>
+    <color name="ggs_gradient_end_color">#250E38</color>
+    <color name="ggs_white">#FFFFFF</color>
+
+    <color name="ggs_text_color_heading">#1B1B1B</color>
+
+    <color name="ggs_text_color_normal_text_view">#8F8E94</color>
+
+    <color name="ggs_switch_color">#009688</color>
+    <color name="ggs_switch_disable_color">#80009688</color>
+    <color name="ggs_currency_radio_text_color">#8A000000</color>
+    <color name="ggs_color_black">#000000</color>
+    <color name="ggs_divider_color">#80c1c1c1</color>
+    <color name="ggs_per_list_text_color">#797979</color>
+    <color name="ggs_secrh_view_background_color">#EEEEEE</color>
+</resources>

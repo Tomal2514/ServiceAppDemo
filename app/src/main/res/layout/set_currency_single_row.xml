@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+
+    <android.support.v7.widget.AppCompatRadioButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Australia(UAD)"
+        android:id="@+id/currency_radio_button"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layoutDirection="rtl"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:textColor="@color/ggs_currency_radio_text_color"
+
+
+
+
+        />
+
+
+
+</RelativeLayout>

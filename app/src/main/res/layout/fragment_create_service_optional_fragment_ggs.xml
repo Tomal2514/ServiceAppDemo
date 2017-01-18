@@ -1,0 +1,363 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/transparent"
+    android:orientation="vertical"
+    tools:context="com.example.tomal.serviceappdemo.fragment.CreateServiceOptionalFragmentGgs">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/ggs_crad_view_create_post_second_page_layout_margin"
+        app:cardCornerRadius="@dimen/ggs_card_create_post_second_page_corner_radius"
+        app:cardElevation="@dimen/ggs_card_normal_elovation">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                android:weightSum="2.1">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/ggs_create_post_text_view_top_margin"
+                    android:layout_marginLeft="@dimen/ggs_normal_marging"
+
+                    android:layout_marginTop="@dimen/ggs_create_post_text_view_top_margin"
+                    android:layout_weight="1"
+                    android:text="@string/ggs_expericnece_text"
+                    android:textColor="@color/ggs_text_color_heading"
+                    android:textSize="@dimen/ggs_text_size_medium"
+                    />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+
+                    android:layout_marginRight="@dimen/ggs_create_post_second_page_text_view_left_margin"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical|right"
+                    android:textColor="@color/ggs_text_color_normal_text_view"
+                    android:maxLines="1"
+                    android:ellipsize="end"/>
+
+                <ImageView
+                    android:layout_width="@dimen/ggs_create_post_second_fragment_icon_width"
+                    android:layout_height="@dimen/ggs_normal_marging"
+                    android:layout_gravity="center_vertical"
+                    app:srcCompat="@drawable/ggs_ic_right_arrow_icon"
+
+                    />
+
+
+            </LinearLayout>
+
+            <View style="@style/Divider" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:orientation="horizontal"
+                android:weightSum="2.1">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/ggs_create_post_text_view_top_margin"
+                    android:layout_marginLeft="@dimen/ggs_normal_marging"
+                    android:layout_marginTop="@dimen/ggs_create_post_text_view_top_margin"
+                    android:layout_weight="1"
+                    android:text="@string/ggs_skill_text"
+                    android:textColor="@color/ggs_text_color_heading"
+                    android:textSize="@dimen/ggs_text_size_medium" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="@dimen/ggs_create_post_second_page_text_view_left_margin"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical|right"
+                    android:text="product,screen amsbhy ahsga hasggah ahsgahs"
+                    android:textColor="@color/ggs_text_color_normal_text_view"
+                    android:textSize="@dimen/ggs_text_size_medium_small"
+                    android:maxLines="1"
+                    android:ellipsize="end"
+                    />
+
+                <ImageView
+                    android:layout_width="@dimen/ggs_create_post_second_fragment_icon_width"
+                    android:layout_height="@dimen/ggs_normal_marging"
+                    android:layout_gravity="center_vertical"
+                    app:srcCompat="@drawable/ggs_ic_right_arrow_icon"
+
+                    />
+
+
+            </LinearLayout>
+
+            <View style="@style/Divider" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="2.1">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/ggs_create_post_text_view_top_margin"
+                    android:layout_marginLeft="@dimen/ggs_normal_marging"
+                    android:layout_marginTop="@dimen/ggs_create_post_text_view_top_margin"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical"
+                    android:text="@string/ggs_tag_text"
+                    android:textColor="@color/ggs_text_color_heading"
+                    android:textSize="@dimen/ggs_text_size_medium" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="@dimen/ggs_create_post_second_page_text_view_left_margin"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical|right"
+                    android:text="Dummy Model"
+                    android:textColor="@color/ggs_text_color_normal_text_view"
+                    android:textSize="@dimen/ggs_text_size_medium_small"
+                    android:maxLines="1"
+                    android:ellipsize="end"/>
+
+                <ImageView
+                    android:layout_width="@dimen/ggs_create_post_second_fragment_icon_width"
+                    android:layout_height="@dimen/ggs_normal_marging"
+                    android:layout_gravity="center_vertical"
+                    app:srcCompat="@drawable/ggs_ic_right_arrow_icon"
+
+                    />
+
+
+            </LinearLayout>
+        </LinearLayout>
+
+
+    </android.support.v7.widget.CardView>
+
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/ggs_crad_view_create_post_second_page_layout_margin"
+        app:cardCornerRadius="@dimen/ggs_card_create_post_second_page_corner_radius"
+        app:cardElevation="@dimen/ggs_card_normal_elovation">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:background="#F2F2F2"
+                android:gravity="center_vertical"
+                android:paddingLeft="17dp"
+                android:text="@string/ggs_contact_pref_text"
+                android:textColor="@color/ggs_text_color_heading"
+                android:textSize="@dimen/ggs_text_size_semi_heading" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="229dp"
+                android:orientation="vertical"
+                android:weightSum="4">
+
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+
+                    <Switch
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_gravity="left"
+                        android:layout_marginEnd="13dp"
+                        android:layout_marginRight="@dimen/ggs_normal_marging"
+                        android:checked="true"
+                        android:enabled="false"
+                        android:thumbTint="@color/ggs_switch_disable_color"
+                        android:trackTint="@color/ggs_switch_disable_color"
+                        app:theme="@style/BrandedSwitch.control"
+
+
+                        />
+
+                    <TextView
+                        android:id="@+id/textView3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignLeft="@+id/textView2"
+                        android:layout_alignParentBottom="true"
+                        android:layout_alignStart="@+id/textView2"
+                        android:layout_marginBottom="7dp"
+                        android:text="@string/ggs_always_enabled_text"
+                        android:textSize="@dimen/ggs_text_size_medium_small" />
+
+                    <TextView
+                        android:id="@+id/textView2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_above="@+id/textView3"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true"
+                        android:layout_marginLeft="16dp"
+                        android:layout_marginStart="@dimen/ggs_normal_marging"
+                        android:gravity="center_vertical"
+                        android:text="@string/ggs_gagagugu_chat"
+                        android:textColor="@color/ggs_text_color_heading"
+                        android:textSize="@dimen/ggs_text_size_medium" />
+
+
+                </RelativeLayout>
+
+
+                <View style="@style/Divider" />
+
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="@dimen/ggs_normal_marging"
+                        android:gravity="center_vertical"
+                        android:text="@string/ggs_audio_call_text"
+                        android:textColor="@color/ggs_text_color_heading"
+                        android:textSize="@dimen/ggs_text_size_medium" />
+
+
+                    <Switch
+                        android:id="@+id/switch1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_gravity="left"
+                        android:layout_marginEnd="13dp"
+                        android:layout_marginRight="@dimen/ggs_normal_marging"
+                        app:theme="@style/BrandedSwitch.control"
+                        android:checked="true"
+
+
+                        />
+
+
+                </RelativeLayout>
+
+                <View style="@style/Divider" />
+
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="@dimen/ggs_normal_marging"
+                        android:gravity="center_vertical"
+                        android:text="@string/ggs_video_call_text"
+                        android:textColor="@color/ggs_text_color_heading"
+                        android:textSize="@dimen/ggs_text_size_medium" />
+
+
+                    <Switch
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_gravity="left"
+                        android:layout_marginEnd="13dp"
+                        android:layout_marginRight="@dimen/ggs_normal_marging"
+                        app:theme="@style/BrandedSwitch.control"
+                        android:checked="true"
+
+                        />
+
+
+                </RelativeLayout>
+
+                <View style="@style/Divider" />
+
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="@dimen/ggs_normal_marging"
+                        android:gravity="center_vertical"
+                        android:text="@string/ggs_cellular_call_text"
+                        android:textColor="@color/ggs_text_color_heading"
+                        android:textSize="@dimen/ggs_text_size_medium" />
+
+
+                    <Switch
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_gravity="left"
+                        android:layout_marginEnd="13dp"
+                        android:layout_marginRight="@dimen/ggs_normal_marging"
+                        app:theme="@style/BrandedSwitch.control"
+                        android:checked="true"
+
+                        />
+
+
+                </RelativeLayout>
+
+                <View style="@style/Divider" />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>

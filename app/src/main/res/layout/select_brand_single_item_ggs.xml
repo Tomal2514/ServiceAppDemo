@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:weightSum="6"
+    android:background="#80c1c1c1"
+    android:padding="16dp"
+    >
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="5"
+        android:text="dasasasssssssssss"
+        android:id="@+id/brand_title_row_item_text_view"
+        android:textSize="16sp"/>
+
+    <ImageView
+        android:layout_width="15dp"
+        android:layout_height="15dp"
+        app:srcCompat="@drawable/ic_checked_icon_ggs"
+        android:layout_weight="1"
+        android:visibility="gone"
+        android:id="@+id/selected_mark_image_view"
+
+        />
+    
+</LinearLayout>

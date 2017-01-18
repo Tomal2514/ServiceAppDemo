@@ -1,0 +1,77 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.tomal.serviceappdemo.fragment.SelectBandBottomFragmentGgs"
+    android:paddingBottom="20dp"
+    android:focusableInTouchMode="true"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/ggs_color_black"
+            android:text="@string/ggs_add_new_brand_title_text"
+            android:layout_marginTop="11dp"
+            android:layout_marginBottom="11dp"
+            android:layout_marginLeft="16dp"
+            android:id="@+id/textView"
+            android:textSize="17sp"
+            />
+
+
+        </RelativeLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dip"
+        android:background="@color/ggs_divider_color" />
+
+
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:gravity="center"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:background="@drawable/ggs_search_background"
+        android:layout_marginTop="20dp"
+        android:id="@+id/search_relative_layout"
+        android:animateLayoutChanges="true"
+        >
+
+
+
+        <com.example.tomal.serviceappdemo.util.EditTextBackEvent
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:hint="Search"
+            android:background="#c2c123"
+            android:gravity="center"
+            android:drawableLeft="@drawable/ic_search_icon_ggs"
+            android:id="@+id/search_edit_text"
+
+
+
+            />
+    </RelativeLayout>
+
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:id="@+id/select_brand_recycle_view"
+></android.support.v7.widget.RecyclerView>
+
+
+
+    </LinearLayout>
